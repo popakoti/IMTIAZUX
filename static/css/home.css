@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(/static/img/introhome.png);
+}
+
+@font-face {
+    font-family: 'Zolina';
+    src: local('Zolina Medium'), local('Zolina-Medium'),
+        url('/static/fonts/Zolina-Medium.woff2') format('woff2'),
+        url('/static/fonts/Zolina-Medium.woff') format('woff'),
+        url('/static/fonts/Zolina-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Zolina';
+    src: local('Zolina Regular'), local('Zolina-Regular'),
+        url('/static/fonts/Zolina-Regular.woff2') format('woff2'),
+        url('/static/fonts/Zolina-Regular.woff') format('woff'),
+        url('/static/fonts/Zolina-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('/static/fonts/Roboto-Light.woff2') format('woff2'),
+        url('/static/fonts/Roboto-Light.woff') format('woff'),
+        url('/static/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('/static/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('/static/fonts/Roboto-Medium.woff') format('woff'),
+        url('/static/fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.container{
+    margin: 30px 120px;
+    max-width: 1920px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-weight: 300;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+}
+
+.link{
+    padding: 10px;
+    display: flex;
+    float: right;
+}
+
+.container .logo_container .logo_container__link p{
+    font-size: 30px;
+    display: inline;
+    font-family: 'Roboto';
+    font-weight: 500;
+    align-items: flex-end;
+    color: white;
+}
+
+.intro{
+    padding-top: 100px;
+}
+
+.photo{
+    display: flex;
+    float: right;
+    clear: both;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.29);
+}
+
+.text_left{
+    display: block;
+}
+.text1{
+    width: 50%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Zolina';
+    font-weight: 400;
+}
+
+.text2{
+    padding-top: 30px;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.buttom1{
+    margin-top: 50px;
+    display: inline-flex;
+    font-size: 20px;
+	min-height: 60px;
+	align-items: center;
+	font-weight: 500;
+	padding: 15px 50px;
+	background: linear-gradient(104.16deg, #1448FF 5.18%, #971CD1 78.1%);
+    font-family: 'Zolina';
+	color: #fff;
+}
+
+.buttom1:hover {
+    opacity: 0.6;
+}
+
+.information{
+    padding-top: 70px;
+    display: flex;
+    width: 50%;
+}
+
+.info{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}

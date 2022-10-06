@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(/static/img/intromarket.png);
+}
+
+@font-face {
+    font-family: 'Zolina';
+    src: local('Zolina Medium'), local('Zolina-Medium'),
+        url('/static/fonts/Zolina-Medium.woff2') format('woff2'),
+        url('/static/fonts/Zolina-Medium.woff') format('woff'),
+        url('/static/fonts/Zolina-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Zolina';
+    src: local('Zolina Regular'), local('Zolina-Regular'),
+        url('/static/fonts/Zolina-Regular.woff2') format('woff2'),
+        url('/static/fonts/Zolina-Regular.woff') format('woff'),
+        url('/static/fonts/Zolina-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('/static/fonts/Roboto-Light.woff2') format('woff2'),
+        url('/static/fonts/Roboto-Light.woff') format('woff'),
+        url('/static/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('/static/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('/static/fonts/Roboto-Medium.woff') format('woff'),
+        url('/static/fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.container{
+    margin: 30px 120px;
+    max-width: 1920px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-weight: 300;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+}
+
+.link{
+    padding: 10px;
+    display: flex;
+    float: right;
+}
+
+.container .logo_container .logo_container__link p{
+    font-size: 30px;
+    display: inline;
+    font-family: 'Roboto';
+    font-weight: 500;
+    align-items: flex-end;
+    color: white;
+}
+
+.intro{
+    padding-top: 100px;
+}
+
+.photo{
+    display: flex;
+    float: right;
+    clear: both;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.29);
+}
+
+.img_center{
+    padding-top: 30px;
+    padding-left: 150px;
+    width: 80%;
+    display: flex;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+
+}
+.text1{
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Zolina';
+    font-weight: 400;
+    text-align: center;
+}
+.nft{
+}
